@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+.chatbox {
+    height: 85vh;
+    width: 99%;
+    background-color: whitesmoke;
+    border: 2px solid #404969;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: hidden;
+    margin: 10px;
+}
+
+.chat-window {
+    height: calc(100% - 40px);
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.message-text-you {
+    background-color: #bde4f4;
+    color: #404969;
+    border-radius: 25px;
+    padding: 15px;
+    display: inline;
+}
+
+.message-text-bot {
+    background-color: #404969;
+    color: #bde4f4;
+    border-radius: 25px;
+    padding: 15px;
+    display: inline;
+}
+
+.from {
+    font-weight: bold;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #ceddef;
+}
+
+.input-box input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid #404969;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.input-box button {
+    background-color: transparent;
+    color: #000;
+    border: none;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.input-box button:hover {
+    border-radius: 25px;
+    background-color: whitesmoke;
+}
+
+.row-test {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-child {
+    margin: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.from {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;   
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 5px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #e3e2e2;
+    border-radius: 5px;
+  }
+
+  /* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars,
+.navbar-scroll .navar-brand {
+  color: #4f4f4f;
+}
+
+.navbar-scroll .nav-link:hover {
+  color: #bde4f4;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars,
+.navbar-scrolled .navar-brand {
+  color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+body {
+  background-color: #eee;
+}
+
+a {
+    color: #404969;
+}
+
+@media only screen and (max-width: 600px) {
+    .chatbox {
+        height: 75vh;
+        width: 97%;
+        background-color: whitesmoke;
+        border: 2px solid #404969;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow-y: hidden;
+        margin: 5px;
+    }
+}

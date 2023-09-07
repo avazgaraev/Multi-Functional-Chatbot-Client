@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/SubsKEY/resourceGroups/appsvc_windows_centralus2/providers/Microsoft.Web/sites/AzSpeechClient",
+    "appService.deploySubpath": "dist"
+}
